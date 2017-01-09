@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="main.css">
+  <title>Document</title>
+  <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+<button class="startbutton">Start!</button>
+<div class="sequence">
+  <div class="winscreen"><img src="img/p1Wins.jpg"></div>
+  <div class="winscreen2"><img src="img/p2Wins.jpg"></div>
+  <div class="uparrow"><img src="img/UpArrow.jpg"></div>
+  <div class="leftarrow"><img src="img/LeftArrow.jpg"></div>
+  <div class="rightarrow"><img src="img/RightArrow.jpg"></div>
+  <div class="downarrow"><img src="img/DownArrow.jpg"></div>
+</div>
+<div class="p1pic">
+  <div class="p1score">0</div>
+  <!-- <div class="p1face"><img src="img/calmface.jpg"</div> -->
+  <div class="p1instructions"> Use W, A, S, D keys to follow the arrow sequence. </div>
+</div>
+<button class="sequencenumber">Game 0</button>
+
+<div class="p2pic">
+  <div class="p2score">0</div>
+  <!-- <div class="p2face"><img src="img/calmface.jpg"</div> -->
+  <div class="p2instructions">Use Up, Down, Right, Left arrow keys to follow the arrow sequence.</div>
+</div>
+<div class="centralline"></div>
+<div class="p1sequence">
+  <div class="p1_win_pic"></div>
+  <div class="p1_lose_pic"></div>
+  <div class="p1wrongsequence"></div>
+</div>
+
+<div class="p_lines"></div>
+<div class="p2sequence">
+  <div class="p2_win_pic"></div>
+  <div class="p2_lose_pic"></div>
+  <div class="p2wrongsequence"></div>
+</div>
+<script src="main.js"></script>
+</body>
+</html>
